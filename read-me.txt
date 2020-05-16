@@ -1,0 +1,11 @@
+#############################
+#                           #
+#############################
+para usar o nanosend vc deve ter 2 coisas:
+1 - ip de destino
+2 - um arquivo txt com sua msg
+para receber msg, o nanosend_ser.py precisa estar em execução
+pois ele recebe e gera um log com todas as mensagem para serem lidas!
+para enviar msg, vc deve usar o nanosend_cli.py com esses dois items,
+exemplo de uso:
+./nanosend_cli.py 127.0.0.1 msg.txt
